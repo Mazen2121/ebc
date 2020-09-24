@@ -90,15 +90,15 @@ client.on('message', message => {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 30) message.channel.send({embed: {
+             if(timer == 30) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 15) message.channel.send({embed: {
+             if(timer == 15) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 5) message.channel.send({embed: {
+             if(timer == 5) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
@@ -123,15 +123,15 @@ client.on('message', message => {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 30) message.channel.send({embed: {
+             if(timer == 30) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 15) message.channel.send({embed: {
+             if(timer == 15) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 5) message.channel.send({embed: {
+             if(timer == 5) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
@@ -152,15 +152,15 @@ client.on('message', message => {
         timer = 45;
         clock = setInterval(() => {
           console.log(timer);
-             if(timer == 30) message.channel.send({embed: {
+             if(timer == 30) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 15) message.channel.send({embed: {
+             if(timer == 15) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
-             if(timer == 5) message.channel.send({embed: {
+             if(timer == 5) return message.channel.send({embed: {
                color: `RANDOM`,
                description: `${timer}s left`
              }});
